@@ -46,3 +46,11 @@ body > section > div > div.hidden-sm.hidden-xs.col-lg-12.col-md-12 > button:nth-
 .check{
   height: 38vh;
 }
+.style-btn-views{
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  margin-top: 20vh;
+  padding-left: 3em;
+  padding-right: 3em;
+}
