@@ -1,0 +1,45 @@
+.background-load{
+  background-color: purple;
+  height: 100vh;
+}
+.img-load-mobile{
+  height: 30vh;
+  margin-top: 30vh;
+}
+.img-load-desktop{
+  margin: 30vh 0vh 0vh 8vh;
+  height: 30vh;
+}
+.background-img{
+  background-image: url(../assets/images/city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.btn-style{
+  background-color: black;
+  color: white;
+  margin-top: 20vh;
+  padding: 1em;
+  border-radius: 12%
+}
+.btn-style:hover{
+  background: #EE0988;
+}
+body > section > div > div.hidden-lg.hidden-md.col-sm-12.col-xs-12 > button:nth-child(1){
+  margin-left: 10vh;
+}
+.btn-style-desktop{
+  background-color: black;
+  color: white;
+  margin-top: 20vh;
+  padding: 1em;
+  border-radius: 12%
+}
+.btn-style-desktop:hover{
+  background: #EE0988;
+}
+body > section > div > div.hidden-sm.hidden-xs.col-lg-12.col-md-12 > button:nth-child(1){
+  margin-left: 83vh;
+}
