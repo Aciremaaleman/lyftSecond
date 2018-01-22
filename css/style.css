@@ -43,3 +43,6 @@ body > section > div > div.hidden-lg.hidden-md.col-sm-12.col-xs-12 > button:nth-
 body > section > div > div.hidden-sm.hidden-xs.col-lg-12.col-md-12 > button:nth-child(1){
   margin-left: 83vh;
 }
+.check{
+  height: 38vh;
+}
