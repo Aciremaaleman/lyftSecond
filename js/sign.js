@@ -2,17 +2,17 @@ var $input = $("#input");
 var $inputCode = $("#code");
 var $resendCode = $("#btnCode");
 var $validCode = Math.floor(Math.random() * 1000);
-// var $name = $("#name");
-// var $password = $("#password");
-// var $check = $("#check");
+var $name = $("#name");
+var $password = $("#email");
+var $check = $("#check");
 
 $(document).ready(function() {
   $input.keyup(valid);
   $inputCode.keyup(activeBoton);
   $resendCode.click(generateCode);
-  // $name.keyup(form);
-  // $password.keyup(form);
-  // $check.keyup(form);
+  $name.keyup(form);
+  $password.keyup(form);
+  $check.keyup(form);
 
 });
 
@@ -46,12 +46,12 @@ var activeBoton = function() {
   };
 };
 
-// var form = function() {
-//   if($("#name").val().trim().length > 0 && $("#password").val().trim().length > 0 && $("#check").prop('checked', true) {
-//     $("#last-btn").addClass('active');
-//     $("#last-btn").removeClass('disabled');
-//     $("#last-btn").click(function() {
-//       location.href = "../views/check.html";
-//     });
-//   });
-// };
+var form = function() {
+  if($("#name").val().trim().length > 0 && $("#email").val().trim().length > 0 && $("#check").prop('checked', true)) {
+    $("#last-btn").addClass('active');
+    $("#last-btn").removeClass('disabled');
+    $("#last-btn").click(function() {
+      location.href = "../views/check.html";
+    });
+  };
+};
